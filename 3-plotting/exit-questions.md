@@ -7,7 +7,7 @@
 - [ ] Axes
 - [ ] Artist
 - [ ] Figure
-- [ ] Artist
+- [ ] Axis
 
 
 

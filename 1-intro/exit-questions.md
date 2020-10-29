@@ -14,10 +14,10 @@
 ### What is the following block return?
 
 ```python
-def add(a, b):
+def add_five(a, b):
     return a+5, b+5
 
-result = add(3, 2)
+result = add_five(3, 2)
 print(result)
 ```
 
@@ -31,6 +31,6 @@ print(result)
 ### Mark the correct statements.
 
 - [ ] We can convert between Python data types.
-- [ ] All lines must end with a semicolon ( ; ).
-- [ ] PEP-8 provides rules for how to write Python. If we don't follow these rules the code doesn't work.
+- [ ] All strings must be declared with single quotation marks ( ' ).
+- [ ] PEP-8 is the Python definition. Adherence is required for the code to work.
 - [ ] The first element of a sequence is 0.

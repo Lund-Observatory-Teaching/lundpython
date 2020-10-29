@@ -22,7 +22,7 @@
 
 ### Mark the correct statements.
 
-- [ ] Matplotlib is designed based on MATLAB.
+- [ ] Matplotlib's design is based on MATLAB.
 - [ ] Figures should always be entirely in vector format.
-- [ ] The default settings of Matplotlib gives the optimal plot.
-- [ ] Matplotlib's default colormap Viridis is adapter for colour-blindness.
+- [ ] The default settings of Matplotlib give the optimal plot.
+- [ ] Matplotlib's default colormap Viridis is considerate of colour-blindness.

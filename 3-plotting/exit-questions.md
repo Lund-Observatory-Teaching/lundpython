@@ -2,7 +2,7 @@
 
 
 
-### When I make a plot, the x label is part of the
+### The x-label is part of the
 
 - [ ] Axes
 - [ ] Artist
@@ -11,12 +11,12 @@
 
 
 
-### An improvement on the plot shown (see screen) would be
+### The best improvement of the plot (see screen) would be...
 
-- [ ] Adding lines to connect the points.
-- [ ] Fitting a curve through the values.
-- [ ] Putting the x,y-labels and ticks on all three plots.
-- [ ] Including a legend.
+- [ ] adding lines to connect the points.
+- [ ] fitting a curve through the values.
+- [ ] putting the x,y-labels and ticks on all three plots.
+- [ ] including a legend.
 
 
 

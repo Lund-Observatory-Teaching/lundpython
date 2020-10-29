@@ -11,7 +11,7 @@
 
 
 
-### What is the following block return?
+### What does the following block return?
 
 ```python
 def add_five(a, b):
@@ -30,7 +30,7 @@ print(result)
 
 ### Mark the correct statements.
 
-- [ ] We can convert between Python data types.
+- [ ] Arithmetic expressions can include ints and floats together.
 - [ ] All strings must be declared with single quotation marks ( ' ).
 - [ ] PEP-8 is the Python definition. Adherence is required for the code to work.
 - [ ] The first element of a sequence is 0.

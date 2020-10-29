@@ -2,7 +2,7 @@
 
 
 
-### NumPy is faster than normal Python because
+### Why is NumPy faster than normal Python?
 
 - [ ] The code typically has less lines.
 - [ ] It does things in a non-Python background and never uses any Python commands.

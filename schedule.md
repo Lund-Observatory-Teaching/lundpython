@@ -1,4 +1,9 @@
-# Schedule
+---
+layout: page
+title: "Schedule"
+permalink: https://mikkolad.github.io/CourseMaterials/schedule
+---
+
 All lectures start in **Cassiopea** and then move to **Lyra**
 
 There are four lectures with the following dates and topics (HT2021):

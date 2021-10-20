@@ -1,4 +1,4 @@
-# Schedule
+#### Schedule
 All lectures start in **Cassiopea** and then move to **Lyra**
 
 There are four lectures with the following dates and topics (HT2021):

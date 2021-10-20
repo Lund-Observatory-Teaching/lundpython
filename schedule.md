@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Schedule"
 permalink: https://mikkolad.github.io/CourseMaterials/schedule
 ---

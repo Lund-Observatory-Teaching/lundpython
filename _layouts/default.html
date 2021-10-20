@@ -18,10 +18,10 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="{{ site.github.url }}" class="btn">Home</a>
-        <a href="{{ download_url }}" class="btn">Download notebooks</a>
-        <a href="{{ sschedule_url }}" class="btn">View schedule</a>
-        <a href="{{ guide_url }}" class="btn">Jupyter Notebook guide</a>
+        <a href="{{ site.github.url }}" class="btn">Home</a><br>
+        <a href="{{ site.download_url }}" class="btn">Download notebooks</a>
+        <a href="{{ site.schedule_url }}" class="btn">View schedule</a>
+        <a href="{{ site.guide_url }}" class="btn">Jupyter Notebook guide</a>
     </header>
 
     <main id="content" class="main-content" role="main">

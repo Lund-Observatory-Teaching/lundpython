@@ -4,3 +4,6 @@ description: Here you will find the course material for the python programming c
 download_url: "https://mikkolad.github.io/CourseMaterials/downloads"
 schedule_url: "https://mikkolad.github.io/CourseMaterials/schedule"
 guide_url: "https://mikkolad.github.io/CourseMaterials/guide"
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme

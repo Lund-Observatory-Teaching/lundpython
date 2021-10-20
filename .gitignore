@@ -4,3 +4,5 @@ __pycache__/
 *.zip
 .jekyll*
 _site*
+Gemfile*
+Jekyll-theme-cayman.gemspec

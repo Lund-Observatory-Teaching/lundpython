@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: LundPython
 description: Here you will find the course material for the python programming course @ Lund Observatory
+github:
+ is_project_page: false

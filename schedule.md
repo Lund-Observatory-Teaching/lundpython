@@ -3,7 +3,7 @@ layout: default
 title: "Schedule"
 ---
 
-All lectures start in **Cassiopea** and then move to **Lyra**
+All lectures start in **Cassiopeia** and then move to **Lyra**
 
 There are four lectures with the following dates and topics (HT2021):
 

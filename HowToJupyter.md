@@ -7,7 +7,7 @@
 2. Save the lectures to some folder
 2. Open a terminal
 3. Navigate to the folder where your .ipynb is (e. g, `cd Documents/LecturesFolder`)
-4. Type `jupyter notebook` and press enter
+4. Type `jupyter-notebook` and press enter
 
 ### Windows
 1. Install anaconda from https://www.anaconda.com/

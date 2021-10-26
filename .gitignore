@@ -2,3 +2,7 @@ ipython_cell_input.py
 .ipynb_checkpoints/
 __pycache__/
 *.zip
+.jekyll*
+_site*
+Gemfile*
+Jekyll-theme-cayman.gemspec

@@ -40,5 +40,4 @@ Here you will find the course material for the python programming course @ Lund 
 <a href="{{site.github.url}}/4-tools/xy.txt" download>xy.txt</a><br>
 <a href="{{site.github.url}}/4-tools/is_this_pep8.py" download>is_this_pep8.py</a><br>
 <a href="{{site.github.url}}/4-tools/spyderexample.py" download>spyderexample.py</a><br>
-<a href="{{site.github.url}}/4-tools/ipython_cell_input.py" download>ipython_cell_input.py</a>
 

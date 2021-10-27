@@ -3,11 +3,11 @@ layout: default
 title: "How to open Jupyter Notebooks"
 ---
 ### Linux & MacOS
-<p style="margin-left:0pt">**1.** Install anaconda from https://www.anaconda.com/<br>
+**1.** Install anaconda from https://www.anaconda.com/<br>
 **2.** Save the lectures to some folder<br>
 **3.** Open a terminal<br>
 **4.** Navigate to the folder where your .ipynb is (e. g, `cd ~Documents/LecturesFolder`)<br>
-**5.** Type `jupyter-notebook` and press enter</p>
+**5.** Type `jupyter-notebook` and press enter
 
 
 ### Windows

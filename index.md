@@ -18,7 +18,7 @@ Cras sagittis volutpat urna, sit amet viverra justo gravida sit amet. Suspendiss
 <hr style="margin-top:1cm; margin-bottom:1cm" class="rounded">
 <img style="margin-left:1cm;" align="right" src="imgs/simon.jpeg" height=400>
 <h1 style="margin-top:-0.3cm">Simon Alinder</h1>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales mi eget convallis lobortis. Nulla accumsan vehicula quam tristique dignissim. Vivamus ac elit laoreet enim sollicitudin dignissim. Nulla magna nisl, hendrerit et quam interdum, maximus varius quam. Phasellus a scelerisque velit, et scelerisque libero. Phasellus porta ex id velit suscipit dapibus.
+Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul J. McMillan, and is researching galactic archeology and the development history of the Milky Way. 
 
-Cras sagittis volutpat urna, sit amet viverra justo gravida sit amet. Suspendisse egestas tristique ex eget tristique. In dapibus risus dolor, luctus facilisis arcu congue ac. Nunc sit amet suscipit mi, ac egestas velit. Duis tincidunt condimentum magna id tristique. Nam volutpat mi ac ultrices congue. Aenean laoreet justo nec facilisis tincidunt. Aenean vitae placerat lacus, id lacinia magna. Vivamus porta, leo ac laoreet convallis, felis dui eleifend
+Simon joined the teachers of the Python programming course in 2021 to make sure they would continue to be fully staffed after Daniel graduates. 
 

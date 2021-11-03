@@ -58,9 +58,11 @@ function topFunction() {
     <img align=left width=300 src="imgs/eero.jpeg">
     <div class="vertical-line" style="height: 11.3cm; float:left"></div>
     <h1 style="margin-top:-0.3cm">Eero Vaher</h1>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales mi eget convallis lobortis. Nulla accumsan vehicula quam tristique dignissim. Vivamus ac elit laoreet enim sollicitudin dignissim. Nulla magna nisl, hendrerit et quam interdum, maximus varius quam. Phasellus a scelerisque velit, et scelerisque libero. Phasellus porta ex id velit suscipit dapibus.<br>
+    Eero Vaher started his PhD at Lund Observatory in 2019 under the supervision of Drs David Hobbs &  Paul J. McMillan.
+    His research is focused on the *Gaia* bright reference frame.<br>
     <br>
-    Cras sagittis volutpat urna, sit amet viverra justo gravida sit amet. Suspendisse egestas tristique ex eget tristique. In dapibus risus dolor, luctus facilisis arcu congue ac. Nunc sit amet suscipit mi, ac egestas velit. Duis tincidunt condimentum magna id tristique. Nam volutpat mi ac ultrices congue. Aenean laoreet justo nec facilisis tincidunt. Aenean vitae placerat lacus, id lacinia magna.
+    He is an Astropy contributor and has been involved in the Python programming course since 2020.
+    He is aiming to help the students write code that not only works, but is also short, simple and maintainable.
 </intro>
 <br>
 

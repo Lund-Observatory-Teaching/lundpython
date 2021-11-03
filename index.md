@@ -2,23 +2,75 @@
 layout: default
 title: "LundPython"
 ---
-<h1><center> Your teachers </center></h1>
-# Daniel Mikkola
-<img style="margin-top:-1.5cm; margin-left:1cm;" align="right" src="imgs/daniel.jpg" height="400"/> Daniel Mikkola started his PhD at Lund Observatory in 2017 under the supervision of Drs David Hobbs &  Paul J. McMillan. The title of his PhD is <i>Galactic Dynamics in the Gaia Era</i> and outlines his research intersets: studying and contextualising the movements of stars within the Milky Way Galaxy.
+<style>
+intro {
+	max-width: 14cm;
+    height= 20cm;
+    border: 0px;
+}
+div.vertical-line{
+	width: 0px; /* Use only border style */
+	height: 100%;
+	float: right;
+    opacity: 40%;
+	border: 1px inset; /* This is default border style for <hr> tag */
+    margin-right: 0.4cm;
+    margin-left: 0.4cm;
+    margin-top: 0.4cm;
+}
+#myBtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width: 4cm;
+}
 
-Daniel took over the Python programming course in 2018 from Brian Thorsbro and has been working with it ever since to ensure it provides the necessary skills for the students Lund Observatory to carry out their own computations and analyses.
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+<script>
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<h1><center>Your teachers </center></h1><br>
 
-His hobbies in his spare time include: Hiking, camping, fishing, board games, video games & baking bread.
-<hr style="margin-top:1cm; margin-bottom:1cm" class="rounded">
-<img style="margin-right:1cm;" align="left" height="400" src="imgs/eero.jpeg">
-<h1 style="margin-top:-0.3cm">Eero Vaher</h1>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales mi eget convallis lobortis. Nulla accumsan vehicula quam tristique dignissim. Vivamus ac elit laoreet enim sollicitudin dignissim. Nulla magna nisl, hendrerit et quam interdum, maximus varius quam. Phasellus a scelerisque velit, et scelerisque libero. Phasellus porta ex id velit suscipit dapibus.
+<intro>
+    <img align="right" src="imgs/daniel.jpg" width=300>
+    <div class="vertical-line" style="height: 11.3cm;"></div>
+    <h1>Daniel Mikkola</h1>
+    Daniel Mikkola started his PhD at Lund Observatory in 2017 under the supervision of Drs David Hobbs &  Paul J. McMillan. The title of his PhD is <i>Galactic Dynamics in the Gaia Era</i> and outlines his research intersets: studying and contextualising the movements of stars within the Milky Way Galaxy.<br>
+    <br>
+    Daniel took over the Python programming course in 2018 from Brian Thorsbro and has been working with it ever since to ensure it provides the necessary skills for the students Lund Observatory to carry out their own computations and analyses.<br>
+    <br>
+    His hobbies in his spare time include: Hiking, camping, fishing, board games, video games & baking bread.
+</intro>
+<br>
 
-Cras sagittis volutpat urna, sit amet viverra justo gravida sit amet. Suspendisse egestas tristique ex eget tristique. In dapibus risus dolor, luctus facilisis arcu congue ac. Nunc sit amet suscipit mi, ac egestas velit. Duis tincidunt condimentum magna id tristique. Nam volutpat mi ac ultrices congue. Aenean laoreet justo nec facilisis tincidunt. Aenean vitae placerat lacus, id lacinia magna. Vivamus porta, leo ac laoreet convallis, felis dui eleifend
-<hr style="margin-top:1cm; margin-bottom:1cm" class="rounded">
-<img style="margin-left:1cm;" align="right" src="imgs/simon.jpeg" height=400>
-<h1 style="margin-top:-0.3cm">Simon Alinder</h1>
-Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul J. McMillan, and is researching galactic archeology and the development history of the Milky Way. 
+<intro>
+    <img align=left width=300 src="imgs/eero.jpeg">
+    <div class="vertical-line" style="height: 11.3cm; float:left"></div>
+    <h1 style="margin-top:-0.3cm">Eero Vaher</h1>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales mi eget convallis lobortis. Nulla accumsan vehicula quam tristique dignissim. Vivamus ac elit laoreet enim sollicitudin dignissim. Nulla magna nisl, hendrerit et quam interdum, maximus varius quam. Phasellus a scelerisque velit, et scelerisque libero. Phasellus porta ex id velit suscipit dapibus.<br>
+    <br>
+    Cras sagittis volutpat urna, sit amet viverra justo gravida sit amet. Suspendisse egestas tristique ex eget tristique. In dapibus risus dolor, luctus facilisis arcu congue ac. Nunc sit amet suscipit mi, ac egestas velit. Duis tincidunt condimentum magna id tristique. Nam volutpat mi ac ultrices congue. Aenean laoreet justo nec facilisis tincidunt. Aenean vitae placerat lacus, id lacinia magna.
+</intro>
+<br>
 
-Simon joined the teachers of the Python programming course in 2021 to make sure they would continue to be fully staffed after Daniel graduates. 
-
+<intro>
+	<img align="right" src="imgs/simon.jpeg" width=300>
+    <div class="vertical-line" style="height: 11.3cm;"></div>
+    <h1 style="margin-top:-0.3cm">Simon Alinder</h1>
+    Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul J. McMillan, and is researching galactic archeology and the development history of the Milky Way.<br>
+    <br>
+    Simon joined the teachers of the Python programming course in 2021 to make sure they would continue to be fully staffed after Daniel graduates.
+</intro>
+<br><br><br><br><br><br><br><br>
+<center><button class="btn-default" onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button><center>

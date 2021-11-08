@@ -24,9 +24,9 @@ Here you will find the course material for the python programming course @ Lund 
 # Lecture 3
 ##### Notebooks:
 
-<a href="{{site.github.url}}/3-matplotlib/presentation.ipynb" download>Presentation</a><br>
-<a href="{{site.github.url}}/3-matplotlib/manual.ipynb" download>Manual</a><br>
-<a href="{{site.github.url}}/3-matplotlib/exercises.ipynb" download>Exercises</a>
+<a href="{{site.github.url}}/3-plotting/presentation.ipynb" download>Presentation</a><br>
+<a href="{{site.github.url}}/3-plotting/manual.ipynb" download>Manual</a><br>
+<a href="{{site.github.url}}/3-plotting/exercises.ipynb" download>Exercises</a>
 # Lecture 4
 ##### Notebooks:
 

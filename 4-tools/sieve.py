@@ -1,15 +1,10 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov  4 15:39:32 2021
 
-@author: Simon
-"""
-@profile
+# @profile
 def sieve(n):
-    primes=[]
+    primes=[2]
     test=list(range(3,n+1, 2) )
-    while test[0]<=n**0.5:
+    while test[0]**2<=n:
         p = test.pop(0) 
         primes.append(p)
         test = [n for n in test if n%p] #Overwrite test each loop

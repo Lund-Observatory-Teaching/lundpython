@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# @profile
+@profile
 def sieve(n):
     primes=[2]
     test=list(range(3,n+1, 2) )

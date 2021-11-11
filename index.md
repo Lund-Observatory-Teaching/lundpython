@@ -40,8 +40,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
+<h1><center>Click here: <a href="https://forms.gle/ANsp6V2uM3iSHFu89">Course evaluation</a></center></h1>
 <h1><center>Your teachers </center></h1><br>
-
 <intro>
     <img align="right" src="imgs/daniel.jpg" width=300>
     <div class="vertical-line" style="height: 11.3cm;"></div>

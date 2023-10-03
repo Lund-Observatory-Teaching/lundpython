@@ -9,6 +9,7 @@ pycodestyle = "*"
 numpy = "*"
 matplotlib = "*"
 astropy = "*"
+rise = "*"
 
 [dev-packages]
 

@@ -2,7 +2,7 @@
 
 teachers=('Simon Alinder')
 n_teachers=${#teachers[@]}
-contact=(simon.alinder@astro.lu.se)
+contact=(simon.alinder@fysik.lu.se)
 topic=(Basics Numpy Matplotlib Tools)
 for n in {1..4}; do
 	convert front.jpeg \( -size "3000x200" -pointsize 120 -background none -gravity northwest -fill white -font Liberation-Mono-Bold \

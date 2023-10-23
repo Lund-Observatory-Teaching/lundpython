@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 ruff = "*"
-pycodestyle = "*"
 numpy = "*"
 matplotlib = "*"
 astropy = "*"
@@ -14,4 +13,3 @@ rise = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.11"

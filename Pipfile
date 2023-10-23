@@ -9,6 +9,10 @@ numpy = "*"
 matplotlib = "*"
 astropy = "*"
 rise = "*"
+ipytest = "*"
+py-heat-magic = "*"
+line-profiler = "*"
+jupyterlab-rise = "*"
 
 [dev-packages]
 

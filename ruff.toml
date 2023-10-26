@@ -1,0 +1,14 @@
+[lint]
+select = ["ALL"]
+ignore = [
+    "INP001",   # implicit-namespace-package
+    "COM812",   # TrailingCommaMissing
+    "COM819",   # TrailingCommaProhibited
+]
+
+
+[pydocstyle]
+convention = "numpy"
+
+[flake8-annotations]
+ignore-fully-untyped = true # Codebase has no types

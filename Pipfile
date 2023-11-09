@@ -12,7 +12,9 @@ ipytest = "*"
 py-heat-magic = "*"
 line-profiler = "*"
 jupyterlab-rise = "*"
+tqdm = "*"
 
 [dev-packages]
+black = {extras = ["jupyter"], version = "*"}
 
 [requires]

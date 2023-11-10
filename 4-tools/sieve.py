@@ -1,8 +1,17 @@
-#!/usr/bin/env python3
-
-
 @profile
 def sieve(n):
+    """Return a list of all primes up to integer n.
+
+    Parameters
+    ----------
+    n : int
+        The upper limit to find primes up to.
+
+    Returns
+    -------
+    list
+        A list of integers up to n.
+    """
     primes = [2]
     test = list(range(3, n + 1, 2))
     while test[0] ** 2 <= n:

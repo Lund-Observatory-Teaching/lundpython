@@ -40,4 +40,3 @@ Here you will find the course material for the python programming course @ Lund 
 
 ## ASTM22
 <a href="{{site.github.url}}/ASTM22/TipsAndTricks.ipynb" download>TipsAndTricks.ipynb</a><br>
-

@@ -1,4 +1,4 @@
-@profile
+@profile  # noqa: F821, D100
 def sieve(n):
     """Return a list of all primes up to integer n.
 
@@ -22,4 +22,4 @@ def sieve(n):
 
 
 primes = sieve(5000)
-print(len(primes))
+print(len(primes))  # noqa: T201

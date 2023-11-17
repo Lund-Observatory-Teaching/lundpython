@@ -1,0 +1,20 @@
+[lint]
+select = ["ALL"]
+ignore = [
+    "INP001",   # implicit-namespace-package
+    "COM812",   # TrailingCommaMissing
+    "COM819",   # TrailingCommaProhibited
+]
+
+[lint.per-file-ignores]
+"4-tools/is_this_pep8.py" = ["ALL"] # This file is intentionally bad
+"4-tools/sieve.py" = [
+    "T201",     # The print is intentional
+    "F821",     # This catches the profiling decorator
+    "D100",     # Using a module docstring here is overkill
+]
+[pydocstyle]
+convention = "numpy"
+
+[flake8-annotations]
+ignore-fully-untyped = true # Codebase has no types

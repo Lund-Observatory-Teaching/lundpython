@@ -40,35 +40,16 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
-<h1><center>Click here: <a href="https://forms.gle/dsvcNEhtgBos1dWe7">Course evaluation</a></center></h1>
+<h1><center>Click here: <a href="https://forms.gle/cYvkAk9gixFyscN17">Course evaluation</a></center></h1>
 <h1><center>Your teachers </center></h1><br>
-<intro>
-    <img align=left width=300 src="imgs/eero.jpeg">
-    <div class="vertical-line" style="height: 11.3cm; float:left"></div>
-    <h1 style="margin-top:-0.3cm">Eero Vaher</h1>
-    Eero Vaher started his PhD at Lund Observatory in 2019 under the supervision of Drs David Hobbs & Paul McMillan.
-    His research is focused on the <i>Gaia</i> bright reference frame.<br>
-    <br>
-    He is a maintainer of `astropy.coordinates` and has been involved in the Python programming course since 2020.
-    He is aiming to help the students write code that not only works, but is also short, simple and maintainable.
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</intro>
-<br>
-
 <intro>
 	<img align="right" src="imgs/simon.jpeg" width=300>
     <div class="vertical-line" style="height: 11.3cm;"></div>
     <h1 style="margin-top:-0.3cm">Simon Alinder</h1>
-    Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul McMillan, and is researching galactic archeology and the Gaia Phase spiral.<br>
+    Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul McMillan (now at the Univerity of Leicester), and is researching galactic archeology and the Gaia Phase spiral.<br>
     <br>
-    Simon joined the teachers of the Python programming course in 2021 to help make sure the students Lund Observatory are able to carry out their own computations and analyses.
+    Simon joined the teachers of the Python programming course in 2021 to help make sure the students Lund Observatory are able to carry out their own computations and analyses.<br>
+    He has contributed lightly to `astropy`, `astroquery` and `black`.
 </intro>
 <br><br><br><br><br><br><br><br>
 <center><button class="btn-default" onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button><center>

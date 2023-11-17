@@ -1,7 +1,7 @@
 """
 File containing functions that are used in the notebooks.
 
-The function in this file are related to tranforming coordinates
+The functions in this file are related to transforming coordinates
 and making and plotting polynomials.
 """
 import matplotlib.pyplot as plt
@@ -14,12 +14,12 @@ def cart2polar(arr):
 
     Parameters
     ----------
-    arr : numpy array
+    arr : numpy.ndarray
     An array of cartesian coordinates.
 
     Returns
     -------
-    numpy array
+    numpy.ndarray
     An array of polar coordinates.
     """
     return np.array((np.linalg.norm(arr, axis=1), np.arctan2(arr[:, 1], arr[:, 0]))).T
@@ -31,12 +31,12 @@ def cart2spherical(arr):
 
     Parameters
     ----------
-    arr : numpy array
+    arr : numpy.ndarray
     An array of cartesian coordinates.
 
     Returns
     -------
-    numpy array
+    numpy.ndarray
     An array of spherical coordinates.
     """
     r = np.linalg.norm(arr, axis=1)
@@ -47,7 +47,7 @@ def cart2spherical(arr):
 
 def polynomial_xy(npoints):
     """
-    Generate x and y data for a polynomial.
+    Generate random x and y data for a polynomial.
 
     Parameters
     ----------
@@ -57,7 +57,7 @@ def polynomial_xy(npoints):
     Returns
     -------
     tuple
-    A tuple containing x and y data, both are nunpy arrays.
+    A tuple containing x and y data, both are numpy arrays.
     """
     rng = np.random.default_rng()
     x = np.linspace(-5, 5, npoints)
@@ -71,20 +71,10 @@ def plot_polynomial(x, y, a=None, b=None, c=None):
 
     Parameters
     ----------
-    x : numpy array
+    x : numpy.ndarray
         The x values.
 
-    y : numpy array
-        The y values.
-
-    a : Plot a polynomial.
-
-    Parameters
-    ----------
-    x : numpy array
-        The x values.
-
-    y : numpy array
+    y : numpy.ndarray
         The y values.
 
     a : float, optional
@@ -106,4 +96,3 @@ def plot_polynomial(x, y, a=None, b=None, c=None):
     plt.xlabel("$x$", fontsize=14)
     plt.xticks(fontsize=10)
     plt.yticks(fontsize=10)
-    plt.plot()

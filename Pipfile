@@ -16,5 +16,6 @@ tqdm = "*"
 
 [dev-packages]
 black = {extras = ["jupyter"], version = "*"}
+pre-commit = "*"
 
 [requires]

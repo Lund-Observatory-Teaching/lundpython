@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+astropy = "*"
+rise = "*"
+ipytest = "*"
+py-heat-magic = "*"
+line-profiler = "*"
+jupyterlab-rise = "*"
+tqdm = "*"
+
+[dev-packages]
+black = {extras = ["jupyter"], version = "*"}
+pre-commit = "*"
+
+[requires]

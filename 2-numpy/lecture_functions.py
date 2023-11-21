@@ -15,12 +15,12 @@ def cart2polar(arr):
     Parameters
     ----------
     arr : numpy.ndarray
-    An array of cartesian coordinates.
+        An array of cartesian coordinates.
 
     Returns
     -------
     numpy.ndarray
-    An array of polar coordinates.
+        An array of polar coordinates.
     """
     return np.array((np.linalg.norm(arr, axis=1), np.arctan2(arr[:, 1], arr[:, 0]))).T
 

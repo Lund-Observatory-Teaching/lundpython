@@ -33,3 +33,12 @@ repos:
   rev: 0.6.1
   hooks:
     - id: nbstripout
+
+- repo: local
+  hooks:
+    - id: remove-unreferenced-imgs
+      name: remove-unreferenced-imgs
+      entry: sh -c 'find imgs/ -type f \( -exec git grep --quiet {} \; -o -exec git rm {} \; \)'
+      language: system
+      always_run: true
+      pass_filenames: false

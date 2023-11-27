@@ -21,5 +21,6 @@ def sieve(n):
     return primes + test
 
 
-primes = sieve(5000)
-print(len(primes))  # noqa: T201
+if __name__ == "__main__":
+    primes = sieve(5000)
+    print(len(primes))  # noqa: T201

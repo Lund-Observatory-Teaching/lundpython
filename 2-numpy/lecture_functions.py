@@ -32,12 +32,12 @@ def cart2spherical(arr):
     Parameters
     ----------
     arr : numpy.ndarray
-    An array of cartesian coordinates.
+        An array of cartesian coordinates.
 
     Returns
     -------
     numpy.ndarray
-    An array of spherical coordinates.
+        An array of spherical coordinates.
     """
     r = np.linalg.norm(arr, axis=1)
     theta = np.arctan2(np.linalg.norm(arr[:, :2], axis=1), arr[:, 2])
@@ -52,12 +52,14 @@ def polynomial_xy(npoints):
     Parameters
     ----------
     npoints : int
-    The number of points to generate.
+        The number of points to generate.
 
     Returns
     -------
-    tuple
-    A tuple containing x and y data, both are numpy arrays.
+    x_coords : numpy.ndarray
+        x-coordinates of the data points.
+    y_coords : numpy.ndarray
+        y-coordinates of the data points.
     """
     rng = np.random.default_rng()
     x = np.linspace(-5, 5, npoints)

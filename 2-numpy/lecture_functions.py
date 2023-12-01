@@ -1,7 +1,7 @@
 """
 File containing functions that are used in the notebooks.
 
-The function in this file are related to tranforming coordinates
+The functions in this file are related to transforming coordinates
 and making and plotting polynomials.
 """
 import matplotlib.pyplot as plt
@@ -14,13 +14,13 @@ def cart2polar(arr):
 
     Parameters
     ----------
-    arr : numpy array
-    An array of cartesian coordinates.
+    arr : numpy.ndarray
+        An array of cartesian coordinates.
 
     Returns
     -------
-    numpy array
-    An array of polar coordinates.
+    numpy.ndarray
+        An array of polar coordinates.
     """
     return np.array((np.linalg.norm(arr, axis=1), np.arctan2(arr[:, 1], arr[:, 0]))).T
 
@@ -31,13 +31,13 @@ def cart2spherical(arr):
 
     Parameters
     ----------
-    arr : numpy array
-    An array of cartesian coordinates.
+    arr : numpy.ndarray
+        An array of cartesian coordinates.
 
     Returns
     -------
-    numpy array
-    An array of spherical coordinates.
+    numpy.ndarray
+        An array of spherical coordinates.
     """
     r = np.linalg.norm(arr, axis=1)
     theta = np.arctan2(np.linalg.norm(arr[:, :2], axis=1), arr[:, 2])
@@ -47,17 +47,19 @@ def cart2spherical(arr):
 
 def polynomial_xy(npoints):
     """
-    Generate x and y data for a polynomial.
+    Generate random x and y data for a polynomial.
 
     Parameters
     ----------
     npoints : int
-    The number of points to generate.
+        The number of points to generate.
 
     Returns
     -------
-    tuple
-    A tuple containing x and y data, both are nunpy arrays.
+    x_coords : numpy.ndarray
+        x-coordinates of the data points.
+    y_coords : numpy.ndarray
+        y-coordinates of the data points.
     """
     rng = np.random.default_rng()
     x = np.linspace(-5, 5, npoints)
@@ -71,20 +73,10 @@ def plot_polynomial(x, y, a=None, b=None, c=None):
 
     Parameters
     ----------
-    x : numpy array
+    x : numpy.ndarray
         The x values.
 
-    y : numpy array
-        The y values.
-
-    a : Plot a polynomial.
-
-    Parameters
-    ----------
-    x : numpy array
-        The x values.
-
-    y : numpy array
+    y : numpy.ndarray
         The y values.
 
     a : float, optional
@@ -106,4 +98,3 @@ def plot_polynomial(x, y, a=None, b=None, c=None):
     plt.xlabel("$x$", fontsize=14)
     plt.xticks(fontsize=10)
     plt.yticks(fontsize=10)
-    plt.plot()

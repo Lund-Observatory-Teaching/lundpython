@@ -1,4 +1,6 @@
-@profile
+# ruff: noqa: D100
+
+@profile  # noqa: F821
 def sieve(n):
     """Return a list of all primes up to integer n.
 
@@ -21,5 +23,6 @@ def sieve(n):
     return primes + test
 
 
-primes = sieve(5000)
-print(len(primes))
+if __name__ == "__main__":
+    primes = sieve(5000)
+    print(len(primes))  # noqa: T201

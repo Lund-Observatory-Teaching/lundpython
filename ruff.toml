@@ -1,4 +1,4 @@
-line-length = 88
+line-length = 90
 indent-width = 4
 
 [format]
@@ -9,16 +9,14 @@ docstring-code-format = true
 skip-magic-trailing-comma = false
 line-ending = "auto"
 
-
 [lint]
-select = ["ALL"]
-ignore = [
-    "INP001",   # implicit-namespace-package
-    "COM812",   # TrailingCommaMissing
-    "COM819",   # TrailingCommaProhibited
-    "ISC001",   # single-line-implicit-string-concatenation
-    "T201",     # print
-    "D103",     # undocumented-public-function
+select = [
+    # pycodestyle
+    "E",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
 ]
 
 [lint.pydocstyle]

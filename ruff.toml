@@ -17,6 +17,8 @@ select = [
     "UP",
     # flake8-bugbear
     "B",
+    # NumPy-specific rules
+    "NPY",
 ]
 
 [lint.pydocstyle]

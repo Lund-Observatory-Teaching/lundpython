@@ -12,13 +12,27 @@ line-ending = "auto"
 [lint]
 select = [
     # pycodestyle
-    "E",
+    "E", "W",
     # pyupgrade
     "UP",
+    # flake8-bandit
+    "S",
     # flake8-bugbear
     "B",
+    # flake8-commas
+    "COM",
+    # flake8-comprehensions
+    "C4",
+    # flake8-pie
+    "PIE",
+    # flake8-use-pathlib
+    "PTH",
     # NumPy-specific rules
     "NPY",
+]
+ignore = [
+    # Recommended for compatibility with formatter
+    "COM812",
 ]
 
 [lint.pydocstyle]

@@ -1,13 +1,10 @@
 line-length = 90
-indent-width = 4
+target-version = "py312"
 
 [format]
-# Use same settings as Black.
-quote-style = "double"
-indent-style = "space"
-docstring-code-format = true
-skip-magic-trailing-comma = false
-line-ending = "auto"
+# Use default settings.
+docstring-code-format = true  # This is disabled by default but will become opt-out in the future.
+exclude = ["4-tools/is_this_pep8.py"]
 
 [lint]
 select = [
@@ -34,9 +31,3 @@ ignore = [
     # Recommended for compatibility with formatter
     "COM812",
 ]
-
-[lint.pydocstyle]
-convention = "numpy"
-
-[lint.flake8-annotations]
-ignore-fully-untyped = true # Codebase has no types

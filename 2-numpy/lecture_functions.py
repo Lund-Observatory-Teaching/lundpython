@@ -4,6 +4,7 @@ File containing functions that are used in the notebooks.
 The functions in this file are related to transforming coordinates
 and making and plotting polynomials.
 """
+
 import matplotlib.pyplot as plt
 import numpy as np
 

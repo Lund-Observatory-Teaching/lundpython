@@ -1,13 +1,33 @@
+line-length = 90
+target-version = "py312"
+
+[format]
+# Use default settings.
+docstring-code-format = true  # This is disabled by default but will become opt-out in the future.
+exclude = ["4-tools/is_this_pep8.py"]
+
 [lint]
-select = ["ALL"]
-ignore = [
-    "INP001",   # implicit-namespace-package
-    "COM812",   # TrailingCommaMissing
-    "COM819",   # TrailingCommaProhibited
+select = [
+    # pycodestyle
+    "E", "W",
+    # pyupgrade
+    "UP",
+    # flake8-bandit
+    "S",
+    # flake8-bugbear
+    "B",
+    # flake8-commas
+    "COM",
+    # flake8-comprehensions
+    "C4",
+    # flake8-pie
+    "PIE",
+    # flake8-use-pathlib
+    "PTH",
+    # NumPy-specific rules
+    "NPY",
 ]
-
-[pydocstyle]
-convention = "numpy"
-
-[flake8-annotations]
-ignore-fully-untyped = true # Codebase has no types
+ignore = [
+    # Recommended for compatibility with formatter
+    "COM812",
+]

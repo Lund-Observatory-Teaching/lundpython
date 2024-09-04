@@ -46,7 +46,7 @@ function topFunction() {
 	<img align="right" src="imgs/simon.jpeg" width=300>
     <div class="vertical-line" style="height: 11.3cm;"></div>
     <h1 style="margin-top:-0.3cm">Simon Alinder</h1>
-    Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul McMillan (now at the Univerity of Leicester), and is researching galactic archeology and the Gaia Phase spiral.<br>
+    Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul McMillan (now at the University of Leicester), and is researching galactic archeology and the Gaia Phase spiral.<br>
     <br>
     Simon joined the teachers of the Python programming course in 2021 to help make sure the students Lund Observatory are able to carry out their own computations and analyses.<br>
     He has contributed lightly to `astropy`, `astroquery` and `black`.

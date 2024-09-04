@@ -1,5 +1,6 @@
 # ruff: noqa: D100
 
+
 @profile  # noqa: F821
 def sieve(n):
     """Return a list of all primes up to integer n.

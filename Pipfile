@@ -12,6 +12,7 @@ ipytest = "*"
 line-profiler = "*"
 jupyterlab-rise = "*"
 tqdm = "*"
+ipywidgets = "*"
 
 [dev-packages]
 pre-commit = "*"

@@ -10,6 +10,9 @@ Here you will find the course material for the python programming course @ Lund 
 <a href="{{site.github.url}}/1-intro/manual.ipynb" download>Manual</a><br>
 <a href="{{site.github.url}}/1-intro/exercises.ipynb" download>Exercises</a>
 
+##### Additional content
+<a href="{{site.github.url}}/1-intro/intermediate.ipynb" download>Intermediate tips and tricks</a>
+
 # Lecture 2
 ##### Notebooks:
 

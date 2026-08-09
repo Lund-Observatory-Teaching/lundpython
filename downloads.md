@@ -4,13 +4,13 @@ title: "Lecture materials"
 ---
 
 Here you will find the course material for the python programming course @ Lund Observatory
-# Lecture 1
+# Lecture 1 - Introduction to Python
 ##### Notebooks:
 <a href="{{site.github.url}}/1-intro/presentation.ipynb" download>Presentation</a><br>
 <a href="{{site.github.url}}/1-intro/manual.ipynb" download>Manual</a><br>
 <a href="{{site.github.url}}/1-intro/exercises.ipynb" download>Exercises</a>
 
-# Lecture 2
+# Lecture 2 - Numpy
 ##### Notebooks:
 
 <a href="{{site.github.url}}/2-numpy/presentation.ipynb" download>Presentation</a><br>
@@ -21,13 +21,14 @@ Here you will find the course material for the python programming course @ Lund 
 <a href="{{site.github.url}}/2-numpy/galaxy.vot" download>galaxy.vot</a> <br>
 <a href="{{site.github.url}}/2-numpy/lecture_functions.py" download>  lecture_functions.py</a>
 
-# Lecture 3
+# Lecture 3 - Plotting
 ##### Notebooks:
 
 <a href="{{site.github.url}}/3-plotting/presentation.ipynb" download>Presentation</a><br>
 <a href="{{site.github.url}}/3-plotting/manual.ipynb" download>Manual</a><br>
 <a href="{{site.github.url}}/3-plotting/exercises.ipynb" download>Exercises</a>
-# Lecture 4
+
+# Additional material: Python tools and good practices
 ##### Notebooks:
 
 <a href="{{site.github.url}}/4-tools/presentation.ipynb" download>Presentation</a><br>

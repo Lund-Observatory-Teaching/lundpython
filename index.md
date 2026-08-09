@@ -43,8 +43,6 @@ function topFunction() {
 <h1><center>Click here: <a href="https://forms.gle/zYppss18GC7GYjJH8">Course evaluation</a></center></h1>
 <h1><center>Your teachers </center></h1><br>
 <intro>
-	<img align="right" src="imgs/simon.jpeg" width=300>
-    <div class="vertical-line" style="height: 11.3cm;"></div>
     <h1 style="margin-top:-0.3cm">Simon Alinder</h1>
     Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul McMillan (now at the University of Leicester), and is researching galactic archeology and the Gaia Phase spiral.<br>
     <br>

@@ -7,7 +7,7 @@ title: "How to open Jupyter Notebooks"
 **2.** Download the lectures to some folder. In this example, we'll name the folder `LecturesFolder`<br>
 **3.** Open a terminal<br>
 **4.** Navigate to the folder where your .ipynb is (e.g, `cd ~/Documents/LecturesFolder`)<br>
-**5.** Type `jupyter notebook` and press Enter
+**5.** Type `jupyter notebook` and press Enter<br>
 **6.** Jupyter Notebook will open in your web browser. Click the notebook you want to open.
 
 

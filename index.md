@@ -43,11 +43,10 @@ function topFunction() {
 <h1><center>Click here: <a href="https://forms.gle/zYppss18GC7GYjJH8">Course evaluation</a></center></h1>
 <h1><center>Your teachers </center></h1><br>
 <intro>
-    <h1 style="margin-top:-0.3cm">Simon Alinder</h1>
-    Simon Alinder started his PhD at Lund observatory in 2021, supervised by Drs Thomas Bensby and Paul McMillan (now at the University of Leicester), and is researching galactic archeology and the Gaia Phase spiral.<br>
+    <h1 style="margin-top:-0.3cm">Isabella Henum</h1>
+    Isabella Henum started her PhD at Lund observatory in 2023, supervised by Drs David Hobbs, Ross Church and Paul McMillan (now at the University of Leicester), and is researching galactic dynamics using Gaia data and in preparation for the future GaiaNIR mission.<br>
     <br>
-    Simon joined the teachers of the Python programming course in 2021 to help make sure the students Lund Observatory are able to carry out their own computations and analyses.<br>
-    He has contributed lightly to `astropy`, `astroquery` and `black`.
+    Isabella joined the teaching team for the Python programming course in 2026, helping to ensure that students at Lund Observatory have the skills to carry out their own computations and analyses.<br>
 </intro>
 <br><br><br><br><br><br><br><br>
 <center><button class="btn-default" onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button><center>

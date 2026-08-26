@@ -3,7 +3,7 @@ layout: default
 title: "Schedule"
 ---
 
-All lectures are held in **XXX**
+All lectures are held in **K204**
 
 There are four lectures with the following dates and topics (HT2026):
 
